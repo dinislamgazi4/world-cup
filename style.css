@@ -1,0 +1,122 @@
+
+
+
+body{
+    background-color: skyblue;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    max-width: 100%;
+    width: 1280px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.hero-header{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    gap: 10%;
+    background-color: black;
+    border-radius: 20px;
+}
+.hero-img{
+        margin-top: auto;
+}
+.hero-tag{
+   width: 300px;
+}
+.hero-header h1{
+    font-size: 40px;
+    color: white;
+}
+.hero-header p{
+    color: white;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.hero-btn{
+    display: grid;
+    margin: 20% 20%;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+}
+.hero-btn a{
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    margin: 10px ;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+}
+.hero-btn a:hover{
+    background-color: yellow;
+}
+
+.germany{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 20px;
+    margin-top: 15%;
+}
+.hero-germany{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: beige;
+    width: 200px;
+    height: 120px;
+    padding: 30px;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-gap: 30px;
+    margin-top: 10px;
+}
+.dinislam{
+    display: flex;
+    width: 400px;
+    margin-top: 5%;
+
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.foter-text{
+    color: white;
+    gap: 50px;
+    text-align: center;
+    padding: 7% ;
+}
+.foter-text a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aquamarine;
+    margin-left: 15px;
+}
